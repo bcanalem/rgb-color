@@ -1,0 +1,28 @@
+.values {
+  width: 2rem;
+}
+
+.ranges {
+  width: 12rem;
+}
+
+input {
+  margin-left: 1rem;
+}
+
+body {
+  padding: 2rem;
+}
+
+span {
+  width: 300px;
+}
+
+.colorBox {
+  margin: 2rem;
+  border: 1px;
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 150, 0);
+}

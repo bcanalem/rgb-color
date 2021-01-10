@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático - RGB</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <span>(R) Vermelho</span>
+    <input
+      type="range"
+      class="ranges"
+      id="rRange"
+      min="0"
+      max="255"
+      value="0"
+    /><input class="values" id="rValue" disabled /><br />
+    <span>(G) Verde</span>
+    <input
+      type="range"
+      class="ranges"
+      id="gRange"
+      min="0"
+      max="255"
+      value="0"
+    /><input class="values" id="gValue" disabled /><br />
+    <span>(B) Azul</span>
+    <input
+      type="range"
+      class="ranges"
+      id="bRange"
+      min="0"
+      max="255"
+      value="0"
+    /><input class="values" id="bValue" disabled /><br />
+    <div class="colorBox"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
